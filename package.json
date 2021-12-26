@@ -1,0 +1,11 @@
+{
+  "name": "simplenodewebsite",
+  "version": "1.0.0",
+  "description": "A website created for The Odin Project's project - Basic Informational Site. The main objective is to create a website with index, about, contact and 404 error page. Also deploy this app on github pages.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Ankush Patil",
+  "license": "ISC"
+}
