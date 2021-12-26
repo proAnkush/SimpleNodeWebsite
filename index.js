@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
             res.end();
         })
     }else if(path.extname(req.url) ===".css"){
-        console.log(req.url);
+        // console.log(req.url);
         fs.readFile(path.join(__dirname, 'public', req.url), 'utf-8', (err, data) => {
             if(err) throw err;
             res.writeHead(200, {"Content-Type": "text/css"});
